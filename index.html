@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💕 A Very Important Question</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts-bg" id="heartsBg"></div>
+
+  <!-- ── QUESTION SCREEN ── -->
+  <div class="screen" id="questionScreen">
+    <div class="card" id="card">
+      <img class="card-gif" id="cardGif" src="https://media.giphy.com/media/l4KhO6V2eEBNYk5va/giphy.gif" alt="love gif" />
+      <div class="emoji-top" id="emojiTop">🥺</div>
+      <h1 class="question" id="question">Ameni, do you love me and would you forgive me?</h1>
+      <p class="sub" id="subText">Think carefully… 💭</p>
+
+      <div class="btn-wrap" id="btnWrap">
+        <button class="btn yes-btn" id="yesBtn" onclick="pressYes()">Yes! 💖</button>
+        <button class="btn no-btn"  id="noBtn"  onclick="pressNo()">No 🙅</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CELEBRATION SCREEN ── -->
+  <div class="screen hidden" id="celebScreen">
+    <div class="confetti-wrap" id="confettiWrap"></div>
+    <div class="celeb-card">
+      <img class="celeb-gif" src="https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif" alt="celebration" />
+      <div class="celeb-emoji">🥰</div>
+      <h1 class="celeb-title">WELLYEYYY!!!</h1>
+      <p class="celeb-msg">
+        3ychek ya rou7i . 💕<br/>
+        Nou3dk kol nhar bech ykoun 5ir men eli 9ablou.<br/>
+        Rabi y5alik laya. 🌹
+      </p>
+      <div class="hearts-burst" id="heartsBurst"></div>
+      <img class="celeb-gif-bottom" src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="hearts" />
+      <div class="celeb-footer">Ameni & Yessin ∞</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
